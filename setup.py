@@ -25,6 +25,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'requests>=2.7.0',
+        'boto3>=1.0'
     ],
     include_package_data=True,
     package_data={'hvac':['version']},
